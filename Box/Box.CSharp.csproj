@@ -75,7 +75,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Contador.cs" />
     <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDebugInfo.cs" />
     <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDemoManager.cs" />
     <Compile Include="Assets\GoogleVR\DemoScenes\HeadsetDemo\FPS.cs" />
@@ -172,11 +171,12 @@
     <Compile Include="Assets\LeapMotionModules\Hands\Scripts\PolyHand.cs" />
     <Compile Include="Assets\LeapMotionModules\Hands\Scripts\RiggedFinger.cs" />
     <Compile Include="Assets\LeapMotionModules\Hands\Scripts\RiggedHand.cs" />
-    <Compile Include="Assets\MoverCam.cs" />
+    <Compile Include="Assets\Post.cs" />
     <Compile Include="Assets\SensorDerecho.cs" />
     <Compile Include="Assets\SensorIzquierdo.cs" />
     <Compile Include="Assets\SensorRot.cs" />
     <Compile Include="Assets\close.cs" />
+    <Compile Include="Assets\golpes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />

@@ -48,7 +48,7 @@ public class login : MonoBehaviour
 
 			if (FbManager.Instance.ProfileName != null) {
 				Text UserName = DialogUsername.GetComponent<Text> ();
-				UserName.text = "Hi, " + FbManager.Instance.ProfileName;
+				UserName.text = "" + FbManager.Instance.ProfileName;
 			} else {
 				StartCoroutine ("WaitForProfileName");
 			}

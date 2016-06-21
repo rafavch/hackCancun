@@ -37,10 +37,6 @@ Tutoriales esenciales para todos por tópicos
 10.- MULTIPLAYER NETWORKING
 	CREATING A SIMPLE MULTIPLAYER EXAMPLE
 
-<<<<<<< HEAD
 11.- 
 
 12.- Prueba Luis git
-=======
-11.- Prueba GIt
->>>>>>> f3c68d12388aad2f34e9839ed8236a1f15280a15

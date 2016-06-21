@@ -45,6 +45,108 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Contador.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AccessTokenMenu.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppInvites.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppLinks.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppRequests.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\DialogShare.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GameGroups.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\AccessToken.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\AppEventName.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\AppEventParameterName.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\CallbackManager.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\CanvasFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\CanvasFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\CanvasFacebookLoader.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\CanvasJSWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasFacebookImplementation.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasFacebookResultHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasJSWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\JsBridge.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\ComponentFactory.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Constants.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FB.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookBase.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookSdkVersion.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookSettings.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookUnityPlatform.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IFacebookImplementation.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IFacebookResultHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IPayFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\MethodArguments.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\MethodCall.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\AndroidFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\AndroidFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\AndroidFacebookLoader.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\FBJavaClass.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\IAndroidJavaClass.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IMobileFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IMobileFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IMobileFacebookImplementation.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IMobileFacebookResultHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IIOSWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IOSFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IOSFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IOSFacebookLoader.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IOSWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\MobileFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\MobileFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\NativeDialogModes.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\OGActionType.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorFacebookLoader.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorFacebookMockDialog.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\IEditorWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\MockDialogs\EmptyMockDialog.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\MockDialogs\MockLoginDialog.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\MockDialogs\MockShareDialog.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\AccessTokenRefreshResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\AppInviteResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\AppLinkResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\AppReqeustResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\GraphResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\GroupCreateResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\GroupJoinResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IAccessTokenRefreshResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IAppInviteResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IAppLinkResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IAppRequestResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IGraphResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IGroupCreateResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IGroupJoinResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IInternalResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\ILoginResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IPayResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IShareResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\LoginResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\PayResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\ResultBase.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\ResultContainer.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\ShareResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\AsyncRequestString.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\FacebookLogger.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\HttpMethod.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\IFacebookLogger.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\MiniJson.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\Utilities.cs" />
+     <Compile Include="Assets\FbManager.cs" />
      <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDebugInfo.cs" />
      <Compile Include="Assets\GoogleVR\DemoScenes\ControllerDemo\ControllerDemoManager.cs" />
      <Compile Include="Assets\GoogleVR\DemoScenes\HeadsetDemo\FPS.cs" />
@@ -85,6 +187,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\VRDevices\EditorDevice.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\VRDevices\GvrDevice.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\VRDevices\iOSDevice.cs" />
+     <Compile Include="Assets\LeapMotion\FbManager.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\Detector.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\DetectorLogicGate.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\ExtendedFingerDetector.cs" />
@@ -134,8 +237,21 @@
      <Compile Include="Assets\LeapMotion\Scripts\VR\LeapVRTemporalWarping.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\VR\TemporalWarpingStatus.cs" />
      <Compile Include="Assets\LeapMotion\Scripts\VR\VRHeightOffset.cs" />
+     <Compile Include="Assets\LeapMotionModules\Hands\Examples\Scripts\CenterTransformOnCam.cs" />
+     <Compile Include="Assets\LeapMotionModules\Hands\Examples\Scripts\CycleHandPairs.cs" />
+     <Compile Include="Assets\LeapMotionModules\Hands\Scripts\MinimalHand.cs" />
+     <Compile Include="Assets\LeapMotionModules\Hands\Scripts\PolyFinger.cs" />
+     <Compile Include="Assets\LeapMotionModules\Hands\Scripts\PolyHand.cs" />
+     <Compile Include="Assets\LeapMotionModules\Hands\Scripts\RiggedFinger.cs" />
+     <Compile Include="Assets\LeapMotionModules\Hands\Scripts\RiggedHand.cs" />
+     <Compile Include="Assets\MoverCam.cs" />
+     <Compile Include="Assets\SensorDerecho.cs" />
+     <Compile Include="Assets\SensorIzquierdo.cs" />
+     <Compile Include="Assets\SensorRot.cs" />
      <Compile Include="Assets\close.cs" />
+     <Compile Include="Assets\login.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\FacebookSDK\SDK\Editor\android\DefaultAndroidManifest.xml" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
      <None Include="Assets\LeapMotion\README_BEFORE_UPDATING.txt" />
@@ -148,6 +264,7 @@
      <None Include="Assets\LeapMotion\Resources\PassthroughBackground.shader" />
      <None Include="Assets\GoogleVR\Resources\UI\GvrReticleShader.shader" />
      <None Include="Assets\LeapMotion\Version.txt" />
+     <None Include="Assets\FacebookSDK\SDK\Scripts\Canvas\Resources\JSSDKBindings.txt" />
      <None Include="Assets\GoogleVR\Resources\SolidColor.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -156,10 +273,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/Public/Documents/Unity Projects/Box/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>C:/Users/Marco/Documents/hackCancun/Box/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="LeapCSharp.NET3.5">
- <HintPath>C:/Users/Public/Documents/Unity Projects/Box/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ <HintPath>C:/Users/Marco/Documents/hackCancun/Box/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
